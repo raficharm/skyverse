@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skyverse</title>
+  <meta charset="UTF-8">
+
+  <meta name="description" content="Hello World 🌍.I am Tanzim Khan Rafi. This is 3D Panorama viewer with scenic view.I hope you will love it. Please let me know if you loved it. Thanks!🩵">
+ 
+  <meta name="theme-color" content="#000000">
+  <meta property="og:image" content="webp_images/6.webp">
+  <title> 3D Skybox 🌆🏙️🌅🌌 Devoloped ByTanzim Khan Rafi🩵
+  </title>
+  <meta property="og:title" content="3D Skybox 🌆🏙️🌅🌌 Devoloped ByTanzim Khan Rafi🩵">
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="300" />
+  <link rel="icon" type="image/x-icon" href="webp_images/6.webp">
+    
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap">
+
+  <style>
+    video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -3;
+    }
+
+    .proma1 {
+      text-align: center;
+      margin-top: 10%;
+      font-family: cursive;
+      margin-bottom: 15px;
+      font-size: 50px;
+      font-weight: 10px;
+    }
+
+    .buttons-container {
+      position: fixed;
+      bottom: 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .button {
+      margin: 10px;
+      padding: 15px;
+      border: 2px solid #fff; /* Add border style */
+      border-radius: 20px;
+      font-size: 24px;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      transition: all 0.3s ease;
+      font-family: 'Pacifico', cursive;
+      width: 250px; /* Adjusted width based on the golden ratio */
+      text-align: center; /* Center the text */
+    }
+
+    .button:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+  <video src="back.mp4" autoplay loop playsinline muted></video>
+
+  <h1 class="proma1" data-aos="fade-down">Welcome<br>To<br>SkyVerse</h1>
+
+  <div class="buttons-container">
+    <a href="app.html" class="button">Start</a>
+    <a href="https://github.com/DevRafi169" class="button">Dev Info</a>
+  </div>
+</body>
+
+</html>
